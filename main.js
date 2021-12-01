@@ -34,7 +34,7 @@ recognition.onresult = function(event) {
 }
 
 function setup(){
-    canvas.createCanvas(900,600);
+    canvas = createCanvas(900, 600);
 }
 
 function draw(){
